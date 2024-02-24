@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Meter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Meter</h1>
+        <label for="password">Enter your password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button onclick="checkStrength()">Check Strength</button>
+        <button onclick="clearPassword()">Clear</button>
+        <div id="result"></div>
+
+        <div class="instructions">
+            <h2>How to create a strong and good password:</h2>
+            <ul>
+                <li>Include a combination of uppercase and lowercase letters</li>
+                <li>Use at least one special character, such as !, @, or #</li>
+                <li>Include numbers or digits</li>
+                <li>Avoid using easily guessable information like your name or birthdate</li>
+                <li>Make it at least 8 characters long</li>
+                <li>Avoid using common words or phrases</li>
+                <li>Consider using a passphrase instead of a single word</li>
+                <li>Use a mix of characters, numbers, and symbols</li>
+                <li>Change your password regularly</li>
+                <li>Don't reuse passwords across multiple accounts</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Made by Darreus</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
